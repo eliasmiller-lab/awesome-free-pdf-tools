@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-// 1. 读取 versa-pdf 的数据定义
+// 1. Read tool definitions from versa-pdf source
 const versaPdfDir = 'd:/ideawork/versa-pdf';
 const toolsFilePath = path.join(versaPdfDir, 'src/data/tools.ts');
 const catFilePath = path.join(versaPdfDir, 'src/data/categories.ts');
@@ -48,7 +48,7 @@ while ((m = regex.exec(toolsContent)) !== null) {
   }
 }
 
-// 2. 生成 README.md
+// 2. Generate README.md markdown content
 let md = `<div align="center">
 
 # 🛠️ Awesome Free Online PDF Tools

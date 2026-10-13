@@ -103,10 +103,13 @@ for (const [catKey, catMeta] of Object.entries(catMap)) {
 
 md += `## 🌐 Multilingual Access
 
-Versa PDF provides localized workflows across international languages:
-- 🇺🇸 **English Hub**: [https://versapdf.com/](https://versapdf.com/)
-- 🇨🇳 **简体中文专区**: [https://versapdf.com/zh/](https://versapdf.com/zh/)
-- 🇪🇸 **Español Hub**: [https://versapdf.com/es/](https://versapdf.com/es/)
+Versa PDF provides fully localized workflows and native experiences across multiple languages:
+
+| Language | Regional Code | Official Hub URL |
+| :--- | :---: | :--- |
+| **English** | \`EN\` | [https://versapdf.com/](https://versapdf.com/) |
+| **Español** | \`ES\` | [https://versapdf.com/es/](https://versapdf.com/es/) |
+| **简体中文** | \`ZH\` | [https://versapdf.com/zh/](https://versapdf.com/zh/) |
 
 ---
 
